@@ -1,0 +1,205 @@
+* {
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	height: 130px;
+	width: auto;
+	object-fit: contain;
+}
+
+.blue {
+	color: #218ffc;
+}
+
+.gray {
+	color: #3d3d3d;
+}
+
+.red {
+	color: #ff2525;
+}
+
+.green {
+	color: #0e8289;
+}
+
+.font25 {
+	font-size: 25px;
+}
+
+.font30 {
+	font-size: 30px;
+}
+
+.weight600 {
+	font-weight: 600;
+}
+
+.weight700 {
+	font-weight: 700;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+h4 {
+	font-weight: 600;
+}
+
+.form {
+	background: #efefef;
+	border-radius: 5px;
+}
+
+.footer {
+	background: #dddddd;
+	padding: 3rem;
+	margin-top: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerLogo {
+	width: 300px;
+}
+
+.vr {
+	border: 1px solid #030e1a;
+	height: 150px;
+	padding: 0;
+}
+
+.hr {
+	border: 1px solid gray;
+	width: 200px;
+	max-width: 100%;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #212529;
+}
+
+div.divider {
+	border: 1px solid #cbced1;
+	width: 50%;
+}
+
+.dividerText {
+	white-space: nowrap;
+	font-weight: 700;
+	color: #3d3d3d;
+	font-size: 25px;
+}
+
+.dividerDescription {
+	font-weight: 400;
+	color: rgba(61, 61, 61, 0.6);
+}
+
+.iconCard {
+	width: 10vw;
+	height: 10vw;
+	min-height: 130px;
+	min-width: 130px;
+	background: #ffffff;
+	box-shadow: 6px 2px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.iconCardHorizontal {
+	max-width: 100%;
+	height: auto;
+	background: #ffffff;
+	box-shadow: 6px 2px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.iconSize1 {
+	width: 40px;
+}
+
+.iconSize2 {
+	width: 60px;
+}
+
+.iconSize3 {
+	width: 80px;
+}
+
+.iconSize4 {
+	width: 100px;
+}
+
+.responsiveMargin {
+	margin: 1vw;
+}
+
+.responsiveMargin2 {
+	margin: 3vw;
+}
+
+.imageSize {
+	height: 25vw;
+}
+
+.csk {
+	width: 250px;
+}
+
+.checkIcon {
+	width: 20px;
+}
+
+.hero-image {
+	width: 100vw;
+	height: auto;
+}
+
+.scroller {
+	height: 1.2em;
+	line-height: 1.2em;
+	position: relative;
+	overflow: hidden;
+	width: 10em;
+}
+
+.scroller > span {
+	position: absolute;
+	top: 0;
+	animation: slide 15s infinite;
+	font-weight: bold;
+}
+
+@keyframes slide {
+	0% {
+		top: 0;
+	}
+	17% {
+		top: -1.2em;
+	}
+	33% {
+		top: -2.4em;
+	}
+	49% {
+		top: -3.6em;
+	}
+	65% {
+		top: -2.4em;
+	}
+
+	81% {
+		top: -1.2em;
+	}
+}
